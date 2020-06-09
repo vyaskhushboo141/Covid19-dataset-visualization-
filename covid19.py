@@ -22,12 +22,6 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[16]:
 
 
-COVID_PATH = 'C:/Users/Khushbu/Downloads/datasets'
-def load_covid_data(covid_path=COVID_PATH): 
-    csv_path = os.path.join(covid_path, "covidw19.csv") 
-    return pd.read_csv(csv_path)
-
-
 # In[26]:
 
 
